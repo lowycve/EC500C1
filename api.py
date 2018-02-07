@@ -1,4 +1,4 @@
-import tweepy #https://github.com/tweepy/tweepy
+import tweepy 
 import json
 import wget
 import requests
@@ -8,7 +8,7 @@ from os import listdir
 from google.cloud import vision
 from google.cloud.vision import types
 import sys
-#Twitter API credentials
+
 consumer_key = "X81uhAUxCUv5xFsqmmWY1Uytt"
 consumer_secret = "oWvsm4D4SDke4mCSZ2fbmDeLAXkiQvWCcR7RPxDSWC1qcvQH8t"
 access_key = "956288592686534656-rSUsibsc3wrljniaq9BjkveIJcfsTkQ"
@@ -17,36 +17,28 @@ access_secret = "vj8XH6UGG9Cm38vwv4V51ot39bwsFq9D50W7QuM4knJdO"
 
 def get_all_tweets(screen_name):
     
-    #Twitter only allows access to a users most recent 3240 tweets with this method
-    
-    #authorize twitter, initialize tweepy
+
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_key, access_secret)
     api = tweepy.API(auth)
     
-    #initialize a list to hold all the tweepy Tweets
     alltweets = []    
     
-    #make initial request for most recent tweets (200 is the maximum allowed count)
     new_tweets = api.user_timeline(screen_name = screen_name,count=10)
     if len(new_tweets) == 0:
         print('The user did not tweet anything.')
         sys.exit()
-    #save most recent tweets
+
     alltweets.extend(new_tweets)
-    
-    #save the id of the oldest tweet less one
+
     oldest = alltweets[-1].id - 1
-    #keep grabbing tweets until there are no tweets left to grab
+
     while len(new_tweets) > 0:
-        
-        #all subsiquent requests use the max_id param to prevent duplicates
+
         new_tweets = api.user_timeline(screen_name = screen_name,count=10,max_id=oldest)
         
-        #save most recent tweets
         alltweets.extend(new_tweets)
         
-        #update the id of the oldest tweet less one
         oldest = alltweets[-1].id - 1
         if(len(alltweets) > 15):
             print('more that 15 tweets downloaded.')
@@ -69,12 +61,13 @@ def get_all_tweets(screen_name):
     for media_file in media_files:
         wget.download(media_file)
     
-
+name = input('Please Enter the Twitter user name(DO NOT INCLUDE "@"):')
+names = '@' + str(name)
 # get_all_tweets("@lm19official")
 try:
     # get_all_tweets("@8POrwwRMMS8gqkJ")
     # get_all_tweets("@dsarew")
-    get_all_tweets("@Yuchen310")
+    get_all_tweets(name)
 except tweepy.error.TweepError:
     print('Sorry, the user is not exist')
     sys.exit()
