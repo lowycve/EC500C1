@@ -1,0 +1,50 @@
+4 Pictures Found.
+Picture Name: DVS8Q9FW0AA6erw.jpg, ID: 1
+10 objects detected.
+Labels:
+sport venue
+stadium
+structure
+arena
+soccer specific stadium
+baseball park
+player
+multi sport event
+arena football
+competition event
+
+Picture Name: DVS8T1NXcAE2bpb.jpg, ID: 2
+8 objects detected.
+Labels:
+logo
+product
+brand
+font
+graphics
+product design
+computer wallpaper
+product
+
+Picture Name: DUV07rHWAAAUXW7.jpg, ID: 3
+7 objects detected.
+Labels:
+cg artwork
+mythology
+mythical creature
+computer wallpaper
+fictional character
+action figure
+warlord
+
+Picture Name: DVS8SQ2XkAIKNPy.png, ID: 4
+8 objects detected.
+Labels:
+clip art
+font
+line
+product
+circle
+area
+graphics
+symbol
+
