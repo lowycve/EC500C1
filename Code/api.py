@@ -9,10 +9,10 @@ from google.cloud import vision
 from google.cloud.vision import types
 import sys
 
-consumer_key = "X81uhAUxCUv5xFsqmmWY1Uytt"
-consumer_secret = "oWvsm4D4SDke4mCSZ2fbmDeLAXkiQvWCcR7RPxDSWC1qcvQH8t"
-access_key = "956288592686534656-rSUsibsc3wrljniaq9BjkveIJcfsTkQ"
-access_secret = "vj8XH6UGG9Cm38vwv4V51ot39bwsFq9D50W7QuM4knJdO"
+consumer_key = 'Enter your information here'
+consumer_secret = 'Enter your information here'
+access_key = 'Enter your information here'
+access_secret = 'Enter your information here'
 
 
 def get_all_tweets(screen_name):
