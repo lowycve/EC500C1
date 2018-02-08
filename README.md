@@ -10,11 +10,11 @@ To run the code, you need to fill in your twitter account information at the beg
 When everything is done, type 'python api.py' in terminal, and type the twitter user name you want to search for. The pictures will atuomatically download to your folder and the result.txt will also been generated.
 When the user name you typed is not exsit, or there is no tweet, picture for the user, the program will tell you which situation happened and shut down.
 
-** No Tweet **
+** No Tweet **:
 <img width="569" alt="no tweet" src="https://user-images.githubusercontent.com/31743714/35995720-42cbed8a-0ce2-11e8-9dff-8fd06b9f1460.png">
 
-** Not exist **
+** Not exist **:
 <img width="567" alt="not exist" src="https://user-images.githubusercontent.com/31743714/35995775-64fb0ad0-0ce2-11e8-8e3e-d965e08e0ef3.png">
 
-** No picture **
+** No picture **:
 <img width="570" alt="no picture" src="https://user-images.githubusercontent.com/31743714/35995794-724ae318-0ce2-11e8-827a-48dd696a822b.png">
