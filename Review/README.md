@@ -18,5 +18,4 @@ video create: PASS
 ![alt tag](https://github.com/lowycve/EC500C1/blob/ChihWeiTung_Review/Review/videotest.png)
 
 vision test: PASS
-
 ![alt tag](https://github.com/lowycve/EC500C1/blob/ChihWeiTung_Review/Review/vision_test.png)
