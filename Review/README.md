@@ -17,5 +17,6 @@ Test Cases:
 ![alt tag](https://github.com/lowycve/EC500C1/blob/ChihWeiTung_Review/Review/videotest.png)
 
 5. Vision test: PASS
+
 ![alt tag](https://github.com/lowycve/EC500C1/blob/ChihWeiTung_Review/Review/vision_test.png)
 
