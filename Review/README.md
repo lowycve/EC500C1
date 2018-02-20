@@ -4,6 +4,9 @@ This project is able to download a certain number of images from twitter by usin
 
 Test Cases:
 
+vision test: PASS
+![alt tag](https://github.com/lowycve/EC500C1/blob/ChihWeiTung_Review/Review/vision_test.png)
+
 no username test: PASS
 ![alt tag](https://github.com/lowycve/EC500C1/blob/ChihWeiTung_Review/Review/nonuser_test.png)
 
@@ -16,5 +19,3 @@ time spend test: FAILED (too slow)
 video create: PASS
 ![alt tag](https://github.com/lowycve/EC500C1/blob/ChihWeiTung_Review/Review/videotest.png)
 
-vision test: PASS
-![alt tag](https://github.com/lowycve/EC500C1/blob/ChihWeiTung_Review/Review/vision_test.png)
