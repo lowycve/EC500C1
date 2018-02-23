@@ -8,8 +8,9 @@ The code folder contains the code that use to solve this problem, and result.txt
 # How to run the code
 To run the code, you need to fill in your twitter account information at the begining of the code, then install google cloud package, obtain a json file that contains your google account information and download google cloud sdk. Make sure include the json file in the same directory as your code.
 When everything is done, type 'python api.py' in terminal, and type the twitter user name you want to search for. The pictures will atuomatically download to your folder and the result.txt will also been generated.
-When the user name you typed is not exsit, or there is no tweet, picture for the user, the program will tell you which situation happened and shut down.
 
+# Features
+When the user name you typed is not exsit, or there is no tweet, picture for the user, the program will tell you which situation happened and shut down.
 ** No Tweet **:
 <img width="569" alt="no tweet" src="https://user-images.githubusercontent.com/31743714/35995720-42cbed8a-0ce2-11e8-9dff-8fd06b9f1460.png">
 
