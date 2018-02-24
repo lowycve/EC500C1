@@ -24,3 +24,5 @@ When everything is done, type 'python api.py' in terminal, and type the twitter 
 2. The Twitter user may upload both png and jpg picture, we need to first create the video seperately and then combine the 2 videos together.
 
 3. The api ask the user if they want to delete the photos or the videos after detection.
+
+4. The api.py allows the user to input multiple Twitter username using a .txt file, however, the .txt file should contain a username which is 'quit' to stop the program.
