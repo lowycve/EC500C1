@@ -21,4 +21,6 @@ When everything is done, type 'python api.py' in terminal, and type the twitter 
 **No picture**:
 <img width="570" alt="no picture" src="https://user-images.githubusercontent.com/31743714/35995794-724ae318-0ce2-11e8-827a-48dd696a822b.png">
 
-2.
+2. The Twitter user may upload both png and jpg picture, we need to first create the video seperately and then combine the 2 videos together.
+
+3. The api ask the user if they want to delete the photos or the videos after detection.
