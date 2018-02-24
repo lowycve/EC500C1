@@ -25,4 +25,4 @@ When everything is done, type 'python api.py' in terminal, and type the twitter 
 
 3. The api ask the user if they want to delete the photos or the videos after detection.
 
-4. The api.py allows the user to input multiple Twitter username using a .txt file, however, the .txt file should contain a username which is 'quit' to stop the program.
+4. The api.py allows the user to input multiple Twitter username using a .txt file, after finishing running, it will generate a result.txt file starting with the username. However, the .txt file should contain a username which is 'quit' to stop the program.
