@@ -29,3 +29,11 @@ When everything is done, type 'python api.py' in terminal, and type the twitter 
 
 # Test
 **Test 1:**
+This test is design to test the speed of retriving data. The requirement of passing the test is 15 seconds, below is the result of running the test program.
+<img width="571" alt="screen shot 2018-02-26 at 3 20 12 pm" src="https://user-images.githubusercontent.com/31743714/36705586-f4716682-1b33-11e8-99aa-0e3785e8f6a4.png">
+**Test 2:**
+This test aims to test the error handler, more specfic, testing the wrong username. If the user enter an unvalid user name that is not exsit, testing program will check if the api program could raise the error and output the error information. Below is the result.
+<img width="569" alt="screen shot 2018-02-26 at 7 59 10 pm" src="https://user-images.githubusercontent.com/31743714/36705691-783463d4-1b34-11e8-81ee-0ef31aa4d681.png">
+**Test 3:**
+This test aims to test if the program could generate the txt.file and mp4.file correctly, before running the program, test program will delete all the txt.file and mp4.file so that it could test only the file that the api program generates. Below is the result.
+<img width="571" alt="screen shot 2018-02-26 at 3 49 03 pm" src="https://user-images.githubusercontent.com/31743714/36706004-e5dafcc6-1b35-11e8-9d3f-8db831d81b3b.png">
