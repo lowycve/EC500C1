@@ -1,3 +1,4 @@
+Report for MySQL and MongoDB
 For both MySQL and MongoDB, the user have to follow some certain format of data to insert to the database, for MySQL, the user
 needs to indicate how many variables their database has and shows what type of data, like integer or text. For MongoDB, the
 data insert must be in dictionary type. For both database, they are able to store a huge amount of data in a really short time.
